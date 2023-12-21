@@ -11,6 +11,14 @@
 		51254B352B2D75FB004D7AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51254B342B2D75FB004D7AFE /* ContentView.swift */; };
 		51254B372B2D75FD004D7AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51254B362B2D75FD004D7AFE /* Assets.xcassets */; };
 		51254B3A2B2D75FD004D7AFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51254B392B2D75FD004D7AFE /* Preview Assets.xcassets */; };
+		518CE2A22B343B110087CC43 /* PlayParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE2A12B343B110087CC43 /* PlayParticleView.swift */; };
+		518CE2A42B343B3D0087CC43 /* ParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE2A32B343B3D0087CC43 /* ParticleView.swift */; };
+		518CE2A62B343BB90087CC43 /* ConfettiContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE2A52B343BB90087CC43 /* ConfettiContainer.swift */; };
+		518CE2A82B343BDA0087CC43 /* ConfettiFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE2A72B343BDA0087CC43 /* ConfettiFrame.swift */; };
+		518CE2AA2B343BF20087CC43 /* ConfettiItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE2A92B343BF20087CC43 /* ConfettiItem.swift */; };
+		518CE2AC2B343C0E0087CC43 /* ConfettiCenterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE2AB2B343C0E0087CC43 /* ConfettiCenterVM.swift */; };
+		518CE2AE2B343C420087CC43 /* ConfettiType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE2AD2B343C420087CC43 /* ConfettiType.swift */; };
+		518CE2B02B343C560087CC43 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE2AF2B343C560087CC43 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		51254B342B2D75FB004D7AFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51254B362B2D75FD004D7AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51254B392B2D75FD004D7AFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		518CE2A12B343B110087CC43 /* PlayParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayParticleView.swift; sourceTree = "<group>"; };
+		518CE2A32B343B3D0087CC43 /* ParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleView.swift; sourceTree = "<group>"; };
+		518CE2A52B343BB90087CC43 /* ConfettiContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiContainer.swift; sourceTree = "<group>"; };
+		518CE2A72B343BDA0087CC43 /* ConfettiFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiFrame.swift; sourceTree = "<group>"; };
+		518CE2A92B343BF20087CC43 /* ConfettiItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiItem.swift; sourceTree = "<group>"; };
+		518CE2AB2B343C0E0087CC43 /* ConfettiCenterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiCenterVM.swift; sourceTree = "<group>"; };
+		518CE2AD2B343C420087CC43 /* ConfettiType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiType.swift; sourceTree = "<group>"; };
+		518CE2AF2B343C560087CC43 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,7 @@
 		51254B312B2D75FB004D7AFE /* PracticeAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				518CE2A02B343A9B0087CC43 /* ParticleAnimation */,
 				51254B322B2D75FB004D7AFE /* PracticeAnimationApp.swift */,
 				51254B342B2D75FB004D7AFE /* ContentView.swift */,
 				51254B362B2D75FD004D7AFE /* Assets.xcassets */,
@@ -65,6 +82,21 @@
 				51254B392B2D75FD004D7AFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		518CE2A02B343A9B0087CC43 /* ParticleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				518CE2A12B343B110087CC43 /* PlayParticleView.swift */,
+				518CE2A32B343B3D0087CC43 /* ParticleView.swift */,
+				518CE2A52B343BB90087CC43 /* ConfettiContainer.swift */,
+				518CE2A72B343BDA0087CC43 /* ConfettiFrame.swift */,
+				518CE2A92B343BF20087CC43 /* ConfettiItem.swift */,
+				518CE2AB2B343C0E0087CC43 /* ConfettiCenterVM.swift */,
+				518CE2AD2B343C420087CC43 /* ConfettiType.swift */,
+				518CE2AF2B343C560087CC43 /* Shapes.swift */,
+			);
+			path = ParticleAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518CE2AA2B343BF20087CC43 /* ConfettiItem.swift in Sources */,
+				518CE2AE2B343C420087CC43 /* ConfettiType.swift in Sources */,
 				51254B352B2D75FB004D7AFE /* ContentView.swift in Sources */,
+				518CE2A82B343BDA0087CC43 /* ConfettiFrame.swift in Sources */,
+				518CE2A62B343BB90087CC43 /* ConfettiContainer.swift in Sources */,
 				51254B332B2D75FB004D7AFE /* PracticeAnimationApp.swift in Sources */,
+				518CE2B02B343C560087CC43 /* Shapes.swift in Sources */,
+				518CE2A22B343B110087CC43 /* PlayParticleView.swift in Sources */,
+				518CE2A42B343B3D0087CC43 /* ParticleView.swift in Sources */,
+				518CE2AC2B343C0E0087CC43 /* ConfettiCenterVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
