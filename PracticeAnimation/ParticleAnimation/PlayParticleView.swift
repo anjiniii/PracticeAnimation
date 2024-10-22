@@ -11,7 +11,7 @@ struct PlayParticleView: View {
     @State var counter = 0
     
     var body: some View{
-        ZStack{
+        ZStack {
             Text("🎉").onTapGesture { counter += 1 }
 
             /* Default */

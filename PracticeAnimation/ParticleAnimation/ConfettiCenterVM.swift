@@ -38,7 +38,7 @@ class ConfettiCenterVM: ObservableObject{
     @Published var explosionAnimationDuration: Double
     @Published var dropAnimationDuration: Double
 
-    init(confettiNumber: Int = 20,
+    init(confettiNumber: Int = 10,
          confettiTypes: [ConfettiType] = ConfettiType.allCases,
 //         colors: [Color] = [.random(), .random(), .random(), .random(),.random(), .random(), .random()],
          colors: [Color] = [Color.red, Color.blue, .orange],
@@ -47,9 +47,9 @@ class ConfettiCenterVM: ObservableObject{
          fadesOut: Bool = true,
          fireworkEffect: Bool = false,
          opacity: Double = 1.0,
-         openingAngle: Angle = .degrees(60),
-         closingAngle: Angle = .degrees(120),
-         radius: CGFloat = 300,
+         openingAngle: Angle = .degrees(20),
+         closingAngle: Angle = .degrees(160),
+         radius: CGFloat = 140,
          repetitions: Int = 0,
          repetitionInterval: Double = 1.0,
          explosionAnimDuration: Double = 0.2,
@@ -89,4 +89,8 @@ class ConfettiCenterVM: ObservableObject{
     func getAnimDuration() -> CGFloat{
         return explosionAnimationDuration + dropAnimationDuration
     }
+}
+
+#Preview {
+    PlayParticleView()
 }

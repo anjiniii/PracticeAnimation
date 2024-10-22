@@ -69,3 +69,7 @@ struct ConfettiFrame: View{
         return number * CGFloat.pi / 180
     }
 }
+
+#Preview {
+    PlayParticleView()
+}
